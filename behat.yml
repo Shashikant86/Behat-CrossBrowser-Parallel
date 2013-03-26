@@ -1,0 +1,33 @@
+chrome:
+  context:
+    class:  'FeatureContext'
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url:  'http://saucelabs.com/'
+      javascript_session:  'selenium'
+      browser_name: googlechrome
+      goutte:              ~
+      selenium:
+
+safari:
+  context:
+    class:  'FeatureContext'
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url:  'http://saucelabs.com/'
+      javascript_session:  'selenium2'
+      browser_name: safari
+      goutte:              ~
+      selenium2:
+
+
+firefox:
+  context:
+    class:  'FeatureContext'
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url:  'http://saucelabs.com/'
+      javascript_session:  'selenium2'
+      browser_name: firefox
+      goutte:              ~
+      selenium2:      
