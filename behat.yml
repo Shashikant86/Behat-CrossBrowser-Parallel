@@ -20,7 +20,6 @@ safari:
       goutte:              ~
       selenium2:
 
-
 firefox:
   context:
     class:  'FeatureContext'
@@ -30,4 +29,5 @@ firefox:
       javascript_session:  'selenium2'
       browser_name: firefox
       goutte:              ~
-      selenium2:      
+      selenium2:
+    
